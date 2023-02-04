@@ -68,3 +68,7 @@ body {
     background-color: #aa2a37!important;
     text-decoration: underline;
 }
+
+#remember:hover{
+    cursor: pointer;
+}
