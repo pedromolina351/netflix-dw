@@ -61,7 +61,7 @@ body {
 .help{
     color: #FFF;
     text-decoration: none;
-    margin-left: 100px;
+    float: right;
 }
 
 .botn:hover {
