@@ -23,9 +23,10 @@ body {
     color: #FFF;
     margin: 0px auto;
     width: 450px;
-    height: 700px;
+    height: 600px;
     border-radius: 5px;
     padding: 30px 70px;
+    transition: background-color 1s ease-in-out;
 }
 
 #formulario h1{
@@ -42,6 +43,7 @@ body {
     border: none;
     border-radius: 2px;
     padding: 0px 20px;
+    color: white;
     
 }
 
@@ -53,7 +55,8 @@ body {
     width: 100%;
     height: 47px;
     background-color: #E40915!important;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
+    font-size: 1rem;
     color: #FFF;
 
 }
@@ -72,3 +75,42 @@ body {
 #remember:hover{
     cursor: pointer;
 }
+
+/*.change:hover{
+    background-color: #b35e6396!important;
+    cursor: pointer;
+}*/
+
+/* / Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    #formulario{
+        background-color: #00000091;
+        color: #FFF;
+        width: auto;
+        height: 100%;
+        padding: 20px 18px;
+    }
+
+    body{
+        background-image: none;
+
+    }
+    #bg{
+        width: 90px;
+        margin-left: 3px;
+        margin-top: 9px;
+    }
+
+  }
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/*/ X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/*/ XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
